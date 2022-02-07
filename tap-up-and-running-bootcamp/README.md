@@ -15,7 +15,6 @@ This repository contains material for the SE TAP Up and Running bootcamp.
     - It’s not recommended to use AWS ECR as container registry due to its lack of support for long-lived credentials! 
 - The privileges for a (sub-)domain to create wildcard DNS entries for e.g. *.cnrs.example.com, *.learningcenter.example.com, *.example.com
   - **Will be provided by the instructor, if the SE doesn't have a private domain!**
-  - 
 ## Provision a Kubernetes cluster
 
 The scripts are currently only validated with GKE and AWS EKS, and Azure AKS!
