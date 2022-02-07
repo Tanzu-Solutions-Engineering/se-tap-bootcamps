@@ -7,17 +7,15 @@ This repository contains material for the SE TAP Up and Running bootcamp.
 - Completed the **TAP Overview** workshop at: http://via.vmware.com/tap-demo
 - Watched James Urquart's whiteboard pitch video (current version: https://via.vmw.com/EdB3)
 - An account for https://network.tanzu.vmware.com
-- Has access to a public could and has provisioned:
+- Have access to a public could and has provisioned:
   - A Kubernetes cluster (GKE, AKS, EKS)
     - Commands to provision a GKE, AKS, or EKS cluster can be found here in the next section
     - (WIP) Terraform scripts to bootstrap the infra for TAP can be found here: https://github.com/Tanzu-Solutions-Engineering/se-tap-bootcamp-automation
   - A Docker V2 API compatibel container registry (GCR, ACR, Harbor, DockerHub, ..)
     - It’s not recommended to use AWS ECR as container registry due to its lack of support for long-lived credentials! 
 - The privileges for a (sub-)domain to create wildcard DNS entries for e.g. *.cnrs.example.com, *.learningcenter.example.com, *.example.com
-  - **Will be provided by the instructor, if the SE doesn't have a private domain!**
-## Provision a Kubernetes cluster
-
-The scripts are currently only validated with GKE and AWS EKS, and Azure AKS!
+  - **Note: Will be provided by the instructor, if the SE doesn't have a private domain!**
+## Provisioning a Kubernetes cluster
 
 ### GKE
 
